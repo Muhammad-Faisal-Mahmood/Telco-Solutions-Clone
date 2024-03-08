@@ -7,6 +7,9 @@ import About from "./components/About/index";
 import CurrentCustoemrs from "./components/About/CurrentCustomers/index";
 import Carriers from "./components/About/Carriers/index";
 import Testimonials from "./components/About/Testimonials/index";
+import VOIPHostedPBX from "./components/Products/VOIPHostedPBX/index";
+import BusinessFiber from "./components/Products/BusinessFiber/index";
+import T1Services from "./components/Products/T1Services/index";
 
 const Body = () => {
   const appRouter = createBrowserRouter([
