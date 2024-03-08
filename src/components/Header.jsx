@@ -46,18 +46,24 @@ const Header = () => {
                 onMouseLeave={handleDropdownLeave}
               >
                 <ul>
-                  <li className="py-2  px-4  hover:bg-green-600">
-                    <Link to="/about">About TelcoSolutions</Link>
-                  </li>
-                  <li className="py-2  px-4  hover:bg-green-600">
-                    <Link to="/current-customers">Current Customers</Link>
-                  </li>
-                  <li className="py-2  px-4  hover:bg-green-600">
-                    <Link to="/carriers">Carriers</Link>
-                  </li>
-                  <li className="py-2  px-4  hover:bg-green-600">
-                    <Link to="/testimonials">Testimonials</Link>
-                  </li>
+                  <Link to="/about">
+                    <li className="py-2  px-4  hover:bg-green-600">
+                      About TelcoSolutions
+                    </li>
+                  </Link>
+                  <Link to="/current-customers">
+                    <li className="py-2  px-4  hover:bg-green-600">
+                      Current Customers
+                    </li>
+                  </Link>
+                  <Link to="/carriers">
+                    <li className="py-2  px-4  hover:bg-green-600">Carriers</li>
+                  </Link>
+                  <Link to="/testimonials">
+                    <li className="py-2  px-4  hover:bg-green-600">
+                      Testimonials
+                    </li>
+                  </Link>
                 </ul>
               </div>
             )}
