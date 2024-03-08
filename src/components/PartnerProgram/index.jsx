@@ -4,7 +4,7 @@ import WhyPeopleChooseUs from "../WhyPeopleChooseUs";
 import ServiceSection from "../ServiceSection";
 import HeroSection from "./HeroSection";
 import PartnerSection from "./PartnerSection";
-import YouTubeEmbed from "./YouTubeEmbed";
+import YouTubeEmbed from "../YouTubeEmbed";
 import Testimonial from "./Testimonial/index";
 
 function index() {

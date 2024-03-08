@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [productsDropDown, setProductsDropDown] = useState(false);
 
   const handleDropdownToggle = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -14,6 +15,14 @@ const Header = () => {
 
   const handleDropdownLeave = () => {
     setIsDropdownOpen(false);
+  };
+
+  const handleProductsDropdownEnter = () => {
+    setProductsDropDown(true);
+  };
+
+  const handleProductsDropdownLeave = () => {
+    setProductsDropDown(false);
   };
 
   return (
@@ -68,7 +77,39 @@ const Header = () => {
               </div>
             )}
           </span>
-          <span className="text-white">Products</span>
+          <span
+            className="text-white cursor-pointer  px-2 py-5"
+            onMouseEnter={handleProductsDropdownEnter}
+            onMouseLeave={handleProductsDropdownLeave}
+          >
+            Products
+            {productsDropDown && (
+              <div
+                className="absolute bg-green-500 text-white mt-5 left-32"
+                onMouseEnter={handleProductsDropdownEnter}
+                onMouseLeave={handleProductsDropdownLeave}
+              >
+                <ul>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/voip-hosted-pbx">
+                      VOIP - Hosted PBX
+                    </Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/business-fiber">
+                      Business Fiber Internet
+                    </Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/t1-services">T1 Internet Services</Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/testimonials">PRI</Link>
+                  </li>
+                </ul>
+              </div>
+            )}
+          </span>
           <Link to="/partner-program" className="text-white">
             Partner Program
           </Link>

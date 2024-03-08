@@ -5,8 +5,8 @@ import BlogPage from "./components/Blog/index";
 import PartnerProgram from "./components/PartnerProgram/index";
 import About from "./components/About/index";
 import CurrentCustoemrs from "./components/About/CurrentCustomers/index";
-import Carriers from "./components/About/Carriers/index"
-import Testimonials from "./components/About/Testimonials/index"
+import Carriers from "./components/About/Carriers/index";
+import Testimonials from "./components/About/Testimonials/index";
 
 const Body = () => {
   const appRouter = createBrowserRouter([
@@ -41,6 +41,18 @@ const Body = () => {
     {
       path: "/testimonials",
       element: <Testimonials />,
+    },
+    {
+      path: "/products/voip-hosted-pbx",
+      element: <VOIPHostedPBX />,
+    },
+    {
+      path: "/products/business-fiber",
+      element: <BusinessFiber />,
+    },
+    {
+      path: "/products/t1-services",
+      element: <T1Services />,
     },
   ]);
 

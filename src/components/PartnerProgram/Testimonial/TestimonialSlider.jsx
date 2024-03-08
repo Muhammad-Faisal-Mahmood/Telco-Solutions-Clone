@@ -131,12 +131,14 @@ const TestimonialSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : 0));
+    setCurrentIndex((prevIndex) =>
+      prevIndex > 0 ? prevIndex - 1 : testimonialData.length - 1
+    );
   };
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex < testimonialData.length - 1 ? prevIndex + 1 : prevIndex
+      prevIndex < testimonialData.length - 1 ? prevIndex + 1 : 0
     );
   };
 
