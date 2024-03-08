@@ -50,7 +50,7 @@ const Header = () => {
             About TelcoSolutions
             {isDropdownOpen && (
               <div
-                className="absolute bg-green-500 text-white mt-5 -left-5"
+                className="absolute bg-green-500 text-white mt-5 -left-5 z-10"
                 onMouseEnter={handleDropdownEnter}
                 onMouseLeave={handleDropdownLeave}
               >
@@ -85,7 +85,7 @@ const Header = () => {
             Products
             {productsDropDown && (
               <div
-                className="absolute bg-green-500 text-white mt-5 left-32"
+                className="absolute bg-green-500 text-white mt-5 left-32 z-10"
                 onMouseEnter={handleProductsDropdownEnter}
                 onMouseLeave={handleProductsDropdownLeave}
               >
