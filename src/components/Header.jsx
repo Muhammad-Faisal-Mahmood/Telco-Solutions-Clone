@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -21,7 +20,9 @@ const Header = () => {
         <div className="flex justify-between items-center space-x-4">
           <span className="text-white">About TelcoSolutions</span>
           <span className="text-white">Products</span>
-          <span className="text-white">Partner Program</span>
+          <Link to="/partner-program" className="text-white ">
+            Partner Program
+          </Link>
           <Link to="/contact" className="text-white ">
             Contact Us
           </Link>
