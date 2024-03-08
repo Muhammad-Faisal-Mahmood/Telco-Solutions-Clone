@@ -5,10 +5,6 @@ const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [productsDropDown, setProductsDropDown] = useState(false);
 
-  const handleDropdownToggle = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-
   const handleDropdownEnter = () => {
     setIsDropdownOpen(true);
   };
@@ -104,7 +100,27 @@ const Header = () => {
                     <Link to="/products/t1-services">T1 Internet Services</Link>
                   </li>
                   <li className="py-2  px-4  hover:bg-green-600">
-                    <Link to="/testimonials">PRI</Link>
+                    <Link to="/products/pri-services">PRI Services</Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/cable">Cable Internet</Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/sd-wan">SD-WAN</Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/mpls">MPLS</Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/business-phone-services">
+                      Business Phone Services
+                    </Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/data-center">Data Center</Link>
+                  </li>
+                  <li className="py-2  px-4  hover:bg-green-600">
+                    <Link to="/products/cloud-services">Cloud Services</Link>
                   </li>
                 </ul>
               </div>

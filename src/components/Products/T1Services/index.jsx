@@ -17,7 +17,7 @@ function index() {
     />
   );
   const SpecificJSX = (
-    <div className="py-12">
+    <div className="py-12 pr-8">
       <Paragraph
         text={
           "T1 lines are a communication transmission service that uses two twisted copper wires to send and receive data or voice transmission. Small and medium sized businesses use T1 lines for increased speed of data transmission and voice, depending on the T1 line’s configuration. T1 lines are great for small and medium sized businesses due to their reliability and affordability. Learn more about our packages below."
