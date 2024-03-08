@@ -3,6 +3,7 @@ import Homepage from "./components/Homepage";
 import ContactUsPage from "./components/contactUs/index";
 import BlogPage from "./components/Blog/index";
 import PartnerProgram from "./components/PartnerProgram/index";
+import About from "./components/About/index"
 
 const Body = () => {
   const appRouter = createBrowserRouter([
@@ -21,6 +22,10 @@ const Body = () => {
     {
       path: "/partner-program",
       element: <PartnerProgram />,
+    },
+    {
+      path: "/about",
+      element: <About />,
     },
   ]);
 
