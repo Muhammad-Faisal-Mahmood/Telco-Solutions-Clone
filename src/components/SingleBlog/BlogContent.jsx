@@ -14,7 +14,7 @@ function BlogContent() {
     "Business Phone",
   ];
   return (
-    <div>
+    <div className="mx-4 md:mx-0">
       <div className="flex justify-center my-12">
         <img
           className="md:w-[55%]"
@@ -266,7 +266,7 @@ function BlogContent() {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="w-[55%]">
+        <div className="md:w-[55%] w-full">
           <form>
             <Paragraph>Contact Information</Paragraph>
             <div className="mb-2">
