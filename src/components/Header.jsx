@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
-import PhoneIcon from '@mui/icons-material/Phone';
+import PhoneIcon from "@mui/icons-material/Phone";
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -32,6 +32,7 @@ const Header = () => {
   };
 
   const handleMobileMenuToggle = () => {
+    console.log("clicked");
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
@@ -42,15 +43,20 @@ const Header = () => {
           Request a Quote
         </button>
         <button className="bg-gray-500 text-white py-2 px-4">
-         <span><PhoneIcon/></span> 800-546-9810
+          <span>
+            <PhoneIcon />
+          </span>{" "}
+          800-546-9810
         </button>
       </div>
       <div className="px-4 py-4  flex justify-between items-center">
-        <img
-          src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b686eff23db9d1a6efa0902_Logo.png"
-          alt="Logo"
-          className="w-24 h-auto"
-        />
+        <Link to={"/"}>
+          <img
+            src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b686eff23db9d1a6efa0902_Logo.png"
+            alt="Logo"
+            className="w-24 h-auto"
+          />
+        </Link>
 
         {/* Desktop menu */}
         <div className="hidden lg:flex justify-between items-center space-x-4 relative">
@@ -202,7 +208,7 @@ const Header = () => {
         </div>
 
         {mobileMenuOpen && (
-          <div className="lg:hidden absolute bg-green-600 top-32 mx-4 w-[90%] rounded p-4 flex justify-between">
+          <div className="lg:hidden absolute bg-green-600 top-32 mx-4 w-[90%] rounded p-4 flex justify-between z-10">
             <ul className="w-full">
               <li
                 className="text-white p-2 text-lg justify-between flex"

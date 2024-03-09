@@ -1,5 +1,5 @@
-import React from "react";
-import PhoneIcon from '@mui/icons-material/Phone';
+import PhoneIcon from "@mui/icons-material/Phone";
+import GeneralButton from "./GeneralButton";
 
 const Footer = () => {
   return (
@@ -18,10 +18,38 @@ const Footer = () => {
         <div className="w-full mb-10 md:w-1/4 text-white lg:mb-40 lg:w-1/4">
           <h4 className="text-lg font-bold mb-4">Quick Links</h4>
           <ul>
-            <li className="">About</li>
-            <li className="">Testimonials</li>
-            <li className="">Carriers</li>
-            <li className="">Contact</li>
+            <li
+              className="cursor-pointer"
+              style={{ color: "#fff" }}
+              onMouseOver={(e) => (e.currentTarget.style.color = "#8dc541")}
+              onMouseOut={(e) => (e.currentTarget.style.color = "#fff")}
+            >
+              About
+            </li>
+            <li
+              className="cursor-pointer"
+              style={{ color: "#fff" }}
+              onMouseOver={(e) => (e.currentTarget.style.color = "#8dc541")}
+              onMouseOut={(e) => (e.currentTarget.style.color = "#fff")}
+            >
+              Testimonials
+            </li>
+            <li
+              className="cursor-pointer"
+              style={{ color: "#fff" }}
+              onMouseOver={(e) => (e.currentTarget.style.color = "#8dc541")}
+              onMouseOut={(e) => (e.currentTarget.style.color = "#fff")}
+            >
+              Carriers
+            </li>
+            <li
+              className="cursor-pointer"
+              style={{ color: "#fff" }}
+              onMouseOver={(e) => (e.currentTarget.style.color = "#8dc541")}
+              onMouseOut={(e) => (e.currentTarget.style.color = "#fff")}
+            >
+              Contact
+            </li>
           </ul>
         </div>
 
@@ -59,12 +87,29 @@ const Footer = () => {
         {/* Fourth Column */}
         <div className="w-1/2 md:w-1/3 mb-10 text-white lg:mb-40 lg:w-1/4 ">
           <h4 className="text-lg font-bold mb-4">Contact</h4>
-          <div className="flex flex-col">
-            <button className="bg-green-500 text-white px-4 py-2 mb-2 rounded">
-              Request a Quote Now
-            </button>
-            <button className="bg-gray-500 text-white px-4 py-2 rounded">
-            <span><PhoneIcon/></span> 800-546-9810
+          <div className="space-y-6">
+            <div>
+              <GeneralButton>Request a Quote Now</GeneralButton>
+            </div>
+            <button
+              style={{
+                backgroundColor: "#c2c2c2",
+                boxShadow: "4px 4px 0px #9c9c9c",
+                transition: "box-shadow 0.2s ease-in-out", // Added transition property
+              }}
+              className=" z-10 text-white py-3 px-6 font-semibold text-md"
+              type="submit"
+              onMouseOver={(e) => {
+                e.currentTarget.style.boxShadow = "8px 8px 0px #9c9c9c";
+              }}
+              onMouseOut={(e) => {
+                e.currentTarget.style.boxShadow = "4px 4px 0px #9c9c9c";
+              }}
+            >
+              <span>
+                <PhoneIcon />
+              </span>{" "}
+              800-546-9810
             </button>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import GeneralButton from "./GeneralButton";
 
 const OurServicesSection = () => {
   return (
@@ -18,7 +18,7 @@ const OurServicesSection = () => {
         </p>
         <div className="flex justify-center my-14 flex-col lg:flex-row">
           {/* First Card */}
-          <div className="mx-4 mb-8">
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -31,8 +31,7 @@ const OurServicesSection = () => {
               offer a number of key benefits.
             </p>
           </div>
-          {/* Second Card */}
-          <div className="mx-4 mb-8">
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -45,52 +44,7 @@ const OurServicesSection = () => {
               offer a number of key benefits.
             </p>
           </div>
-          {/* Third Card */}
-          <div className="mx-4 mb-8">
-            <img
-              src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
-              alt="Ethernet Icon"
-              className="w-20 h-20 mx-auto"
-            />
-            <h3 className="text-white text-xl mb-2">Ethernet</h3>
-            <p className="text-neutral-400 text-lg text-center">
-              Metro Ethernet fiber services – known for their speed and
-              reliability – are available through several of our partners and
-              offer a number of key benefits.
-            </p>
-          </div>
-        </div>
-        <div className="flex justify-center my-14 flex-col lg:flex-row">
-          {/* First Card */}
-          <div className="mx-4 mb-8">
-            <img
-              src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
-              alt="Ethernet Icon"
-              className="w-20 h-20 mx-auto"
-            />
-            <h3 className="text-white text-xl mb-2">Ethernet</h3>
-            <p className="text-neutral-400 text-lg text-center">
-              Metro Ethernet fiber services – known for their speed and
-              reliability – are available through several of our partners and
-              offer a number of key benefits.
-            </p>
-          </div>
-          {/* Second Card */}
-          <div className="mx-4 mb-8">
-            <img
-              src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
-              alt="Ethernet Icon"
-              className="w-20 h-20 mx-auto"
-            />
-            <h3 className="text-white text-xl mb-2">Ethernet</h3>
-            <p className="text-neutral-400 text-lg text-center">
-              Metro Ethernet fiber services – known for their speed and
-              reliability – are available through several of our partners and
-              offer a number of key benefits.
-            </p>
-          </div>
-          {/* Third Card */}
-          <div className="mx-4 mb-8">
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -106,7 +60,7 @@ const OurServicesSection = () => {
         </div>
         <div className="flex justify-center my-14 flex-col lg:flex-row">
           {/* First Card */}
-          <div className="mx-4 mb-8">
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -119,8 +73,7 @@ const OurServicesSection = () => {
               offer a number of key benefits.
             </p>
           </div>
-          {/* Second Card */}
-          <div className="mx-4 mb-8">
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -133,8 +86,7 @@ const OurServicesSection = () => {
               offer a number of key benefits.
             </p>
           </div>
-          {/* Third Card */}
-          <div className="mx-4 mb-8">
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -148,6 +100,51 @@ const OurServicesSection = () => {
             </p>
           </div>
         </div>
+        <div className="flex justify-center my-14 flex-col lg:flex-row">
+          {/* First Card */}
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
+            <img
+              src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
+              alt="Ethernet Icon"
+              className="w-20 h-20 mx-auto"
+            />
+            <h3 className="text-white text-xl mb-2">Ethernet</h3>
+            <p className="text-neutral-400 text-lg text-center">
+              Metro Ethernet fiber services – known for their speed and
+              reliability – are available through several of our partners and
+              offer a number of key benefits.
+            </p>
+          </div>
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
+            <img
+              src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
+              alt="Ethernet Icon"
+              className="w-20 h-20 mx-auto"
+            />
+            <h3 className="text-white text-xl mb-2">Ethernet</h3>
+            <p className="text-neutral-400 text-lg text-center">
+              Metro Ethernet fiber services – known for their speed and
+              reliability – are available through several of our partners and
+              offer a number of key benefits.
+            </p>
+          </div>
+          <div className="mx-4 mb-8 md:w-[25%] cursor-pointer hover:scale-110 transform transition-transform duration-300">
+            <img
+              src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
+              alt="Ethernet Icon"
+              className="w-20 h-20 mx-auto"
+            />
+            <h3 className="text-white text-xl mb-2">Ethernet</h3>
+            <p className="text-neutral-400 text-lg text-center">
+              Metro Ethernet fiber services – known for their speed and
+              reliability – are available through several of our partners and
+              offer a number of key benefits.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center my-10">
+        <GeneralButton>Get Started Now</GeneralButton>
       </div>
     </div>
   );

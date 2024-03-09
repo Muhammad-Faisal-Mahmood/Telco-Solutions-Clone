@@ -1,8 +1,8 @@
-import React from "react";
+import GeneralButton from "./GeneralButton";
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-black  ">
+    <div className="relative bg-black h-screen">
       {/* Video Background */}
       <video
         autoPlay
@@ -41,9 +41,9 @@ const HeroSection = () => {
             We act as a conduit between major service providers and businesses.
           </p>
         </div>
-        <button className="bg-green-500 text-white px-6 py-3 w-[60%] md:w-[40%]">
-          Get a Quote Now
-        </button>
+        <div>
+          <GeneralButton>Get a Quote Now</GeneralButton>
+        </div>
       </div>
     </div>
   );

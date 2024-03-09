@@ -1,4 +1,5 @@
 import React from "react";
+import GeneralButton from "../GeneralButton";
 
 const ContentSection = () => {
   return (
@@ -129,15 +130,9 @@ const ContentSection = () => {
             <h1 className="text-2xl xl:text-3xl">
               Are you ready to work with us?
             </h1>
-            <button
-              style={{
-                backgroundColor: "#8dc541",
-                boxShadow: "4px 4px 0px #7ea943",
-              }}
-              className=" text-white py-4 px-4 mt-10 font-semibold text-md"
-            >
-              Get Started Now
-            </button>
+            <div className="my-8">
+              <GeneralButton> Get Started Now</GeneralButton>
+            </div>
           </div>
         </div>
       </div>

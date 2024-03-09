@@ -1,5 +1,6 @@
 import React from "react";
 import Blog from "./Blog";
+import GeneralButton from "../GeneralButton";
 
 const BlogsSection = () => {
   return (
@@ -14,12 +15,22 @@ const BlogsSection = () => {
           <input
             type="text"
             placeholder="Search..."
-            className="border border-gray-400 px-4 py-2 mb-2"
+            style={{
+              boxShadow: "4px 4px 0px #4682B4",
+              transition: "box-shadow 0.2s ease-in-out",
+            }}
+            onMouseOver={(e) => {
+              e.currentTarget.style.boxShadow = "8px 8px 0px #4682B4";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.boxShadow = "4px 4px 0px #4682B4";
+            }}
+            className="bg-gray-100 px-4 py-4 mb-2"
           />
-          <div className="flex justify-end">
-            <button className="bg-green-500 w-1/2 text-white py-2 px-4 ">
-              Search
-            </button>
+          <div className="flex justify-end my-4">
+            <GeneralButton>
+              <text className="px-10">Search</text>
+            </GeneralButton>
           </div>
         </div>
         <div className="mt-4 lg:ml-8">

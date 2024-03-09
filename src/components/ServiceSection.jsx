@@ -1,10 +1,10 @@
-import React from "react";
+import GeneralButton from "./GeneralButton";
 
 const ServiceSection = () => {
   return (
     <div className="flex justify-between flex-col md:flex-row md:space-x-10 lg:px-20 mt-10">
       {/* Left Section */}
-      <div className="bg-white p-8 pt-20 w-full md:w-3/4 md:max-w-md">
+      <div className="bg-white p-8 md:pt-20 w-full md:w-3/4 md:max-w-md">
         <h2 className="text-2xl">Service Area</h2>
         <p className="text-gray-800 my-10 w-full md:w-full lg:w-[80%] text-lg">
           While initially focused on the United States, TelcoSolutions has
@@ -12,9 +12,7 @@ const ServiceSection = () => {
           relationships with 180 providers allow us unprecedented access to
           offer voice, data, and cloud solutions globally.
         </p>
-        <button className="bg-green-500 text-white px-6 py-3 mt-4 rounded">
-          Get Started Now
-        </button>
+        <GeneralButton>Get Started Now</GeneralButton>
       </div>
 
       {/* Right Section */}

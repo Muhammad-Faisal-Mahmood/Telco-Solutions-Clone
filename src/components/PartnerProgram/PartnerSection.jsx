@@ -1,3 +1,5 @@
+import GeneralButton from "../GeneralButton";
+
 const PartnerSection = () => {
   return (
     <>
@@ -139,16 +141,9 @@ const PartnerSection = () => {
                   name="additionalInfo"
                 />
               </div>
-              <button
-                style={{
-                  backgroundColor: "#8dc541",
-                  boxShadow: "4px 4px 0px #7ea943",
-                }}
-                className=" text-white py-4 px-4 w-full font-semibold text-md"
-                type="submit"
-              >
-                Become a partner
-              </button>
+              <div>
+                <GeneralButton>Become a partner</GeneralButton>
+              </div>
             </form>
           </div>
 

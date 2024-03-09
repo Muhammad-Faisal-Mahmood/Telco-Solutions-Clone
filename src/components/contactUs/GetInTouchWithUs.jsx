@@ -1,5 +1,6 @@
 import React from "react";
 import ProductsRange from "../ProductsRange";
+import GeneralButton from "../GeneralButton";
 
 const GetInTouchWithUs = () => {
   return (
@@ -79,12 +80,9 @@ const GetInTouchWithUs = () => {
               ></textarea>
             </div>
             <div className="text-center">
-              <button
-                type="submit"
-                className=" px-4 py-2 border border-transparent text-base font-medium w-full  text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              >
-                Send Inquiry
-              </button>
+              <GeneralButton>
+                <div>Send Inquery</div>
+              </GeneralButton>
             </div>
           </form>
         </div>
