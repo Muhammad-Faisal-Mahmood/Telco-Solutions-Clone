@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "./HeroSection";
 import Header from "../Header";
 import Footer from "../Footer";
@@ -11,8 +10,8 @@ const index = () => {
     <>
       <Header />
       <HeroSection />
-      <ContentSection/>
-      <WhyPeopleChooseUs/>
+      <ContentSection />
+      <WhyPeopleChooseUs />
       <ServiceSection />
       <Footer />
     </>

@@ -1,10 +1,9 @@
-import React from "react";
 import ProductsRange from "../../ProductsRange";
 
 const ContentSection = () => {
   return (
-    <div className="flex-col p-5 md:p-16  xl:px-32 lg:flex lg:flex-row">
-      <div className="w-full lg:w-[60%] ">
+    <div className="flex-col md:px-16  xl:px-32 lg:flex lg:flex-row">
+      <div className="w-full lg:w-[60%] px-12">
         <div className="my-20">
           <div style={{ borderLeft: "4px solid #CACDD6" }}>
             <p className="italic text-neutral-500 text-md font-semibold pl-6 py-6 lg:pr-12">

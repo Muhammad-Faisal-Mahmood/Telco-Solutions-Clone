@@ -1,4 +1,3 @@
-import React from "react";
 import Blog from "./Blog";
 import GeneralButton from "../GeneralButton";
 
