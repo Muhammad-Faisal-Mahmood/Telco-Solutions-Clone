@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
+import PhoneIcon from '@mui/icons-material/Phone';
 
 const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -41,7 +42,7 @@ const Header = () => {
           Request a Quote
         </button>
         <button className="bg-gray-500 text-white py-2 px-4">
-          800-546-9810
+         <span><PhoneIcon/></span> 800-546-9810
         </button>
       </div>
       <div className="px-4 py-4  flex justify-between items-center">
@@ -58,7 +59,10 @@ const Header = () => {
             onMouseEnter={handleDropdownEnter}
             onMouseLeave={handleDropdownLeave}
           >
-            About TelcoSolutions
+            About TelcoSolutions{" "}
+            <span>
+              <ArrowDropDownIcon />
+            </span>
             {isDropdownOpen && (
               <div
                 className="absolute bg-green-500 text-white mt-5 -left-5 z-10"
@@ -93,7 +97,10 @@ const Header = () => {
             onMouseEnter={handleProductsDropdownEnter}
             onMouseLeave={handleProductsDropdownLeave}
           >
-            Products
+            Products{" "}
+            <span>
+              <ArrowDropDownIcon />
+            </span>
             {productsDropDown && (
               <div
                 className="absolute bg-green-500 text-white mt-5 left-32 z-10"

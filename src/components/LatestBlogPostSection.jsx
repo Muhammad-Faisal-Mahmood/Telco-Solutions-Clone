@@ -7,7 +7,7 @@ const LatestBlogPostSection = () => {
         <h2 className="text-3xl text-center  text-neutral-600 mt-10 mb-20">
           Latest Blog Posts
         </h2>
-        <div className="flex flex-col px-10 justify-between md:flex-row md:px-0 w-[100vw] ">
+        <div className="flex flex-col px-10  md:flex-row md:px-0 w-[100%] ">
           {/* Card 1 */}
           <div className="  mr-6 lg:p-2 xl:p-6">
             <h3 className="text-xl  text-gray-800 mb-4">
@@ -39,7 +39,7 @@ const LatestBlogPostSection = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="  mr-6 lg:p-2 xl:p-6">
+          <div className="  mr-6  lg:p-2 xl:p-6">
             <h3 className="text-xl  text-gray-800 mb-4">
               What Causes Internet Outages and How Does It Affect Your Business?
             </h3>

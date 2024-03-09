@@ -11,11 +11,11 @@ function GeneralSections({ SpecificJSX, HeroSection }) {
     <>
       <Header />
       <div>{HeroSection}</div>
-      <div className="flex flex-col md:flex-row px-40">
+      <div className="flex flex-col lg:flex-row px-4 md:px-6 xl:px-40">
         {/* Left Div */}
-        <div className="w-full md:w-7/12">{SpecificJSX}</div>
+        <div className="w-full lg:w-7/12">{SpecificJSX}</div>
         {/* Right Div (Form) */}
-        <div className="md:w-5/12">
+        <div className="w-full mb-20 lg:w-5/12">
           <ProductsRange />
         </div>
       </div>

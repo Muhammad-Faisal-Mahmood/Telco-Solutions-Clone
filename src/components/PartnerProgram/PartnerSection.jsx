@@ -1,9 +1,9 @@
 const PartnerSection = () => {
   return (
     <>
-      <div className="flex px-36">
+      <div className="flex-col pl-10 pr-5 lg:flex lg:flex-row lg:px-0 lg:pl-10 xl:px-36">
         {/* First Section */}
-        <div className="w-[60%] p-16">
+        <div className="w-full pt-20 lg:w-[60%] lg:px-2 lg:pt-20  xl:p-16">
           <h1 className="text-4xl font-bold mb-4 font-sans">
             Join a Partnership Program Designed for Managed Services Providers
             and IT Companies
@@ -84,7 +84,7 @@ const PartnerSection = () => {
         </div>
 
         {/* Second Section */}
-        <div className="w-[40%]">
+        <div className="w-full lg:w-[40%]">
           {/* Partner Form */}
           <div
             className="mb-8  py-12 px-8 "
@@ -187,7 +187,10 @@ const PartnerSection = () => {
           </div>
         </div>
       </div>
-      <div className="px-52 py-8 font-bold" style={{ color: "#8dc541" }}>
+      <div
+        className="px-10 lg:px-20 xl:px-52 py-8 font-bold"
+        style={{ color: "#8dc541" }}
+      >
         <text>Erin Conrad</text>
         <p>
           <a href="tel:866-844-2181">866-844-2181</a>

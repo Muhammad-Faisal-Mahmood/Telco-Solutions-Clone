@@ -13,7 +13,10 @@ function index() {
       <Header />
       <HeroSection />
       <PartnerSection />
-      <YouTubeEmbed title={"Video"} videoId={"RbwEcwf1ZX0"} />
+      <div className=" w-full lg:w-1/2  xl:w-3/4 mt-10 pl-10 pr-5  lg:px-0 lg:pl-10 xl:px-36">
+        <YouTubeEmbed title={"Video"} videoId={"RbwEcwf1ZX0"} />
+      </div>
+
       <Testimonial />
       <WhyPeopleChooseUs />
       <ServiceSection />

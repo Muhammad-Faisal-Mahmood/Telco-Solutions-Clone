@@ -1,4 +1,5 @@
 import React from "react";
+import PhoneIcon from '@mui/icons-material/Phone';
 
 const Footer = () => {
   return (
@@ -63,7 +64,7 @@ const Footer = () => {
               Request a Quote Now
             </button>
             <button className="bg-gray-500 text-white px-4 py-2 rounded">
-              800-546-9810
+            <span><PhoneIcon/></span> 800-546-9810
             </button>
           </div>
         </div>

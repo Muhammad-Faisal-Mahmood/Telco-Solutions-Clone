@@ -22,7 +22,7 @@ function index() {
       <YouTubeEmbed title={"hostedPBC"} videoId={"pYYE3ntVaXg"} />
 
       <div className="p-8">
-        <h1 className="text-4xl font-semibold mb-8">
+        <h1 className="text-3xl  font-semibold mb-8 md:text-4xl">
           What is Hosted VOIP PBX?
         </h1>
         <Paragraph
