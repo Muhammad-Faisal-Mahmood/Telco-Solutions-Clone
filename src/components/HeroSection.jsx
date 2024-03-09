@@ -2,7 +2,7 @@ import GeneralButton from "./GeneralButton";
 
 const HeroSection = () => {
   return (
-    <div className="relative bg-black h-screen">
+    <div className="-z-50 relative bg-black h-screen">
       {/* Video Background */}
       <video
         autoPlay

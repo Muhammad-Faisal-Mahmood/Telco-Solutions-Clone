@@ -37,7 +37,7 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed w-full bg-gray-900 lg:px-20 z-999 shadow-2xl">
+    <div className="fixed w-full bg-gray-900 lg:px-20 z-50 shadow-2xl">
       <div className="flex justify-end px-4">
         <button
           style={{ backgroundColor: "#89cff0" }}

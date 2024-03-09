@@ -2,7 +2,7 @@ import GeneralButton from "./GeneralButton";
 
 const ProductsRange = () => {
   return (
-    <div>
+    <div className="-z-50">
       <div className="relative bg-neutral-700 py-8 px-12 text-white">
         <div className="flex flex-col">
           <span className="text-2xl">25Mbps Fiber Ethernet</span>

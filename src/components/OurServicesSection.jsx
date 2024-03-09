@@ -3,7 +3,7 @@ import GeneralButton from "./GeneralButton";
 const OurServicesSection = () => {
   return (
     <div
-      className="relative bg-cover bg-center py-20"
+      className="-z-50 relative bg-cover bg-center py-20"
       style={{
         backgroundImage:
           "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://assets.website-files.com/5b68628a23db9d1747f9f227/5d6a3fca6079d0de14bd5167_Bitmap.jpg')",
