@@ -10,15 +10,15 @@ const OurServicesSection = () => {
       }}
     >
       <div className="container mx-auto text-center">
-        <h2 className="text-white text-4xl mb-4">Our Services</h2>
-        <p className="text-white text-lg font-bold mb-8 mx-auto max-w-2xl">
+        <h2 className="text-white text-2xl md:text-4xl mb-4">Our Services</h2>
+        <p className="text-white text-md mx-auto w-[90%] mt-12 mb-20 md:w-[75%] lg:w-[60%] lg:font-bold lg:text-lg   ">
           As an independent carrier agent-consultant with over 75+ years of
           combined industry experience on our staff we directly represent over
           thirty of the industry’s top carriers.
         </p>
-        <div className="flex justify-center my-14">
+        <div className="flex justify-center my-14 flex-col lg:flex-row">
           {/* First Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -32,7 +32,7 @@ const OurServicesSection = () => {
             </p>
           </div>
           {/* Second Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -46,7 +46,7 @@ const OurServicesSection = () => {
             </p>
           </div>
           {/* Third Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -60,9 +60,9 @@ const OurServicesSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center my-14">
+        <div className="flex justify-center my-14 flex-col lg:flex-row">
           {/* First Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -76,7 +76,7 @@ const OurServicesSection = () => {
             </p>
           </div>
           {/* Second Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -90,7 +90,7 @@ const OurServicesSection = () => {
             </p>
           </div>
           {/* Third Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -104,9 +104,9 @@ const OurServicesSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center my-14">
+        <div className="flex justify-center my-14 flex-col lg:flex-row">
           {/* First Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -120,7 +120,7 @@ const OurServicesSection = () => {
             </p>
           </div>
           {/* Second Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"
@@ -134,7 +134,7 @@ const OurServicesSection = () => {
             </p>
           </div>
           {/* Third Card */}
-          <div className=" mx-4">
+          <div className="mx-4 mb-8">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b75da701305b0776409893f_icns_ethernet.svg"
               alt="Ethernet Icon"

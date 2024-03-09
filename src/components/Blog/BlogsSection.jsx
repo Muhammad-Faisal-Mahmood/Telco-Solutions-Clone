@@ -3,13 +3,13 @@ import Blog from "./Blog";
 
 const BlogsSection = () => {
   return (
-    <div className="flex  px-24 py-20">
-      <div className="w-3/4">
+    <div className=" flex flex-col py-20 px-7 lg:px-24 lg:flex-row">
+      <div className="w-full lg:w-3/4">
         <Blog />
         <Blog />
       </div>
-      <div className="w-2/4">
-        <div className="mt-4 ml-8 flex flex-col">
+      <div className=" w-full lg:w-2/4">
+        <div className="mt-4  flex flex-col lg:ml-8">
           <h3 className="text-xl mb-4">Search the blog</h3>
           <input
             type="text"
@@ -22,7 +22,7 @@ const BlogsSection = () => {
             </button>
           </div>
         </div>
-        <div className="mt-4 ml-8">
+        <div className="mt-4 lg:ml-8">
           <h3 className="text-xl mb-4">Categories</h3>
           <div className="flex flex-wrap">
             <button className="bg-blue-500 text-white px-8 py-1 mb-2 mr-2 rounded-full">

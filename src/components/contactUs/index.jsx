@@ -11,7 +11,7 @@ const index = () => {
     <>
       <Header />
       <HeroSection />
-      <GetInTouchWithUs/>
+      <GetInTouchWithUs />
       <WhyPeopleChooseUs />
       <ServiceSection />
       <Footer />

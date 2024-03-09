@@ -3,10 +3,10 @@ import ProductsRange from "../ProductsRange";
 
 const GetInTouchWithUs = () => {
   return (
-    <div className="bg-white  px-20">
-      <div className="container  mx-auto flex flex-col md:flex-row items-center justify-between px-8">
+    <div className="bg-white  lg:px-20">
+      <div className="container   flex flex-col px-5 py-20 items-center justify-between lg:px-8 lg:flex-row ">
         {/* Left Div */}
-        <div className="w-full  md:w-1/2 bg-white px-8 py-20 rounded-lg mb-4 md:mb-0">
+        <div className="w-full  lg:w-1/2 bg-white mb-4 lg:px-8 ">
           <h2 className="text-3xl  mb-4">Get in touch with us</h2>
           <p className="text-black mt-10 mb-5">
             Do you want to get the best price from your telecommunications
@@ -89,8 +89,8 @@ const GetInTouchWithUs = () => {
           </form>
         </div>
         {/* Right Div (Form) */}
-        <div className="w-full md:w-1/2 relative ">
-          <div className="absolute w-full -bottom-16">
+        <div className="w-full lg:w-1/2 relative ">
+          <div className="relative lg:absolute w-full lg:-bottom-[95px] xl:-bottom-[118px]">
             <ProductsRange />
           </div>
         </div>

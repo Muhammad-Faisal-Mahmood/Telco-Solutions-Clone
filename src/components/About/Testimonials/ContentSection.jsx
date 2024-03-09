@@ -3,11 +3,11 @@ import ProductsRange from "../../ProductsRange";
 
 const ContentSection = () => {
   return (
-    <div className="flex px-32">
-      <div className="w-full md:w-[60%] ">
+    <div className="flex-col p-5 md:p-16  xl:px-32 lg:flex lg:flex-row">
+      <div className="w-full lg:w-[60%] ">
         <div className="my-20">
           <div style={{ borderLeft: "4px solid #CACDD6" }}>
-            <p className="italic text-neutral-500 text-md font-semibold pl-6 py-6 pr-12">
+            <p className="italic text-neutral-500 text-md font-semibold pl-6 py-6 lg:pr-12">
               A huge THANK YOU to you for the creative SD-WAN solution and
               persistence in ordering these lines one by one. It might sound
               over the top, but it's truly life changing for us. Especially
@@ -123,7 +123,7 @@ const ContentSection = () => {
             Ryan Jacobs, First Fidelity Funding and Mortgage Corporation
           </h1>
         </div>
-        <div className="mt-20 mb-40">
+        <div className="mt-20 mb-10 lg:mb-40">
           <div style={{ borderLeft: "4px solid #CACDD6" }}>
             <p className="italic text-neutral-500 text-md font-semibold pl-6 py-6 pr-12">
               I have always had positive experiences working with Travis Taylor
@@ -138,8 +138,8 @@ const ContentSection = () => {
           </h1>
         </div>
       </div>
-      <div className="w-full md:w-[40%] relative ">
-        <div className="absolute w-full ">
+      <div className="w-full lg:w-[40%] relative ">
+        <div className="relative mb-20 lg:absolute w-full ">
           <ProductsRange />
         </div>
       </div>

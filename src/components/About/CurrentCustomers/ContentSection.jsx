@@ -3,16 +3,16 @@ import ProductsRange from "../../ProductsRange";
 
 const ContentSection = () => {
   return (
-    <div className="flex px-32">
-      <div className="w-full md:w-[60%] ">
-        <h1 className="mt-10 mb-24 text-neutral-700 font-semibold">
+    <div className="flex-col px-16  xl:px-32 lg:flex lg:flex-row">
+      <div className="w-full lg:w-[60%] ">
+        <h1 className="mt-14 w-[85%] mb-24 text-neutral-700 font-semibold">
           Our customer base is filled with a diverse listing of customers
           engaged in almost every conceivable type of commerce in all 50 states.
           From the Fortune 500 to your local dentist’s office… we have unmatched
           expertise.
         </h1>
-        <div className="flex justify-between">
-          <div className="flex flex-col">
+        <div className=" flex-col justify-between md:flex md:flex-row ">
+          <div className="flex flex-col mb-10">
             <div>
               <h1 className="text-2xl text-neutral-500">FORTUNE </h1>
               <ul className="list-disc ml-10 mt-2 text-neutral-500 font-semibold">
@@ -116,15 +116,15 @@ const ContentSection = () => {
             <span className="text-green-600"> get a free quote today!</span>
           </h1>
         </div>
-        <div className="mt-10 mb-40">
+        <div className="mt-10 mb-10 lg:mb-40">
           <h1 className="font-md  text-neutral-600">
             *T1 prices are subject to the mileage distance from the nearest
             servicing office. Rates may be higher for longer T1 loops.
           </h1>
         </div>
       </div>
-      <div className="w-full md:w-[40%] relative ">
-        <div className="absolute w-full ">
+      <div className="w-full lg:w-[40%] relative ">
+        <div className="relative mb-20 lg:absolute w-full ">
           <ProductsRange />
         </div>
       </div>

@@ -16,11 +16,13 @@ const ContentSection = () => {
           carrier we receive a finder’s fee paid to us by the carrier.
         </p>
       </div>
-      <div className="mt-20 bg-neutral-100 px-20 py-20 flex flex-col">
-        <div className="flex justify-between">
-          <div className="w-1/2">
-            <h1 className="text-3xl">Why use an authorized carrier agent?</h1>
-            <p className="text-neutral-500 text-sm font-semibold w-[85%]  py-2 mt-10 mb-8 ">
+      <div className="mt-20 bg-neutral-100  py-20 flex flex-col  px-4 lg:px-8 xl:px-20">
+        <div className="flex-col md:flex md:flex-row ">
+          <div className="w-full md:w-1/2">
+            <h1 className="text-2xl xl:text-3xl">
+              Why use an authorized carrier agent?
+            </h1>
+            <p className="text-neutral-500 text-sm font-semibold w-[85%]  py-2 md:mt-6 lg:mt-6  xl:mt-10 mb-8 ">
               Most companies & small businesses who deal directly with carriers
               end up paying too much for services that are over-subscribed and
               not forward looking. With our significant industry experience, we
@@ -32,9 +34,9 @@ const ContentSection = () => {
               internet connectivity.
             </p>
           </div>
-          <div className="w-1/2">
-            <h1 className="text-3xl">Cut your fixed costs</h1>
-            <p className="text-neutral-500 text-sm font-semibold w-[85%] py-2 mt-10 mb-8 ">
+          <div className="w-full md:w-1/2">
+            <h1 className="text-2xl xl:text-3xl">Cut your fixed costs</h1>
+            <p className="text-neutral-500 text-sm font-semibold w-[100%] xl:w-[85%] py-2 md:mt-6 lg:mt-6  xl:mt-10 mb-8 ">
               Save 20% to 60% on voice & data services. Nearly 80% of new
               businesses are over-sold services by the major telecommunications
               carriers. Even when existing businesses attempt to improve their
@@ -45,10 +47,12 @@ const ContentSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="w-1/2">
-            <h1 className="text-3xl">One source for all your carrier needs</h1>
-            <p className="text-neutral-500 text-sm font-semibold w-[85%]  py-2 mt-10 mb-8 ">
+        <div className="flex-col md:flex md:flex-row">
+          <div className="w-full md:w-1/2">
+            <h1 className="text-2xl xl:text-3xl">
+              One source for all your carrier needs
+            </h1>
+            <p className="text-neutral-500 text-sm font-semibold w-[85%]  py-2 md:mt-6 lg:mt-6  xl:mt-10 mb-8 ">
               TelcoSolutions is a one-stop solution for all your
               telecommunication & carrier services needs. From local & long
               distance services to internet connectivity & web hosting… We
@@ -58,9 +62,11 @@ const ContentSection = () => {
               process to manage your complete selection process & solution.
             </p>
           </div>
-          <div className="w-1/2">
-            <h1 className="text-3xl">Objective and non-bias expertise</h1>
-            <p className="text-neutral-500 text-sm font-semibold w-[85%] py-2 mt-10 mb-8 ">
+          <div className="w-full md:w-1/2">
+            <h1 className="text-2xl xl:text-3xl">
+              Objective and non-bias expertise
+            </h1>
+            <p className="text-neutral-500 text-sm font-semibold w-[100%] xl:w-[85%] py-2 md:mt-6 lg:mt-6  xl:mt-10 mb-8 ">
               As an authorized independent agent, we work directly with over 30
               carriers including companies like Windstream, AT&T, Earthlink,
               Access Point, Birch,Comcast, CBeyond, Time Warner Telecom and XO
@@ -71,10 +77,12 @@ const ContentSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="w-1/2">
-            <h1 className="text-2xl">We are your long-term tech partner</h1>
-            <p className="text-neutral-500 text-sm font-semibold w-[85%]  py-2 mt-10 mb-8 ">
+        <div className="flex-col md:flex md:flex-row">
+          <div className="w-full md:w-1/2">
+            <h1 className="text-2xl xl:text-3xl">
+              We are your long-term tech partner
+            </h1>
+            <p className="text-neutral-500 text-sm font-semibold w-[85%]  py-2 md:mt-6 lg:mt-6  xl:mt-10 mb-8 ">
               At TelcoSolutions we are constantly monitoring emerging
               technology. Your company will always benefit from cutting-edge
               services that keep you at the leading edge of your industry. We
@@ -87,9 +95,9 @@ const ContentSection = () => {
               and creating long term, tenured customer relationships.
             </p>
           </div>
-          <div className="w-1/2">
-            <h1 className="text-2xl">Unmatched expertise</h1>
-            <p className="text-neutral-500 text-sm font-semibold w-[85%] py-2 mt-10 mb-8 ">
+          <div className="w-full md:w-1/2">
+            <h1 className="text-2xl xl:text-3xl">Unmatched expertise</h1>
+            <p className="text-neutral-500 text-sm font-semibold w-[100%] xl:w-[85%] py-2 md:mt-6 lg:mt-6  xl:mt-10 mb-8 ">
               At TelcoSolutions we feature over 100+ years of combined
               expertise, diverse customer interactions, and experiences that we
               can use to your benefit. Working with dozens of carriers, in all
@@ -101,12 +109,12 @@ const ContentSection = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="w-1/2">
-            <h1 className="text-2xl">
+        <div className="flex-col md:flex md:flex-row">
+          <div className="w-full md:w-1/2">
+            <h1 className="text-2xl xl:text-3xl w-[80%] lg:w-full">
               Exceptional support and customer service
             </h1>
-            <p className="text-neutral-500 text-sm font-semibold w-[85%]  py-2 mt-10 mb-8 ">
+            <p className="text-neutral-500 text-sm font-semibold w-[85%]  py-2 md:mt-6 lg:mt-6  xl:mt-10 mb-8 ">
               At TelcoSolutions we feature over 100+ years of combined
               expertise, diverse customer interactions, and experiences that we
               can use to your benefit. Working with dozens of carriers, in all
@@ -117,8 +125,10 @@ const ContentSection = () => {
               professional consultants with years of experience.
             </p>
           </div>
-          <div className="w-1/2">
-            <h1 className="text-2xl">Are you ready to work with us?</h1>
+          <div className="w-full md:w-1/2">
+            <h1 className="text-2xl xl:text-3xl">
+              Are you ready to work with us?
+            </h1>
             <button
               style={{
                 backgroundColor: "#8dc541",

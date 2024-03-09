@@ -2,14 +2,14 @@ import React from "react";
 
 const LatestBlogPostSection = () => {
   return (
-    <section className="bg-neutral-100 py-10 mt-20">
-      <div className="container mx-auto ">
+    <section className="bg-neutral-100  py-10 mt-20">
+      <div className="container  lg:mx-auto ">
         <h2 className="text-3xl text-center  text-neutral-600 mt-10 mb-20">
           Latest Blog Posts
         </h2>
-        <div className="flex justify-center">
+        <div className="flex flex-col px-10 justify-between md:flex-row md:px-0 w-[100vw] ">
           {/* Card 1 */}
-          <div className=" p-6 mr-6">
+          <div className="  mr-6 lg:p-2 xl:p-6">
             <h3 className="text-xl  text-gray-800 mb-4">
               What Causes Internet Outages and How Does It Affect Your Business?
             </h3>
@@ -18,13 +18,13 @@ const LatestBlogPostSection = () => {
               delves deeper into the most common causes of internet outages,
               their impact on business, and how to prevent downtime.
             </p>
-            <p className="text-gray-600 text-sm mt-10">
+            <p className="text-gray-600 text-sm mt-10 mb-5">
               Thursday, September 7, 2023
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className=" p-6 mr-6">
+          <div className=" mr-6 lg:p-2 xl:p-6">
             <h3 className="text-xl  text-gray-800 mb-4">
               What Causes Internet Outages and How Does It Affect Your Business?
             </h3>
@@ -33,13 +33,13 @@ const LatestBlogPostSection = () => {
               delves deeper into the most common causes of internet outages,
               their impact on business, and how to prevent downtime.
             </p>
-            <p className="text-gray-600 text-sm mt-10">
+            <p className="text-gray-600 text-sm mt-10 mb-5">
               Thursday, September 7, 2023
             </p>
           </div>
 
           {/* Card 3 */}
-          <div className=" p-6 mr-6">
+          <div className="  mr-6 lg:p-2 xl:p-6">
             <h3 className="text-xl  text-gray-800 mb-4">
               What Causes Internet Outages and How Does It Affect Your Business?
             </h3>
@@ -48,7 +48,7 @@ const LatestBlogPostSection = () => {
               delves deeper into the most common causes of internet outages,
               their impact on business, and how to prevent downtime.
             </p>
-            <p className="text-gray-600 text-sm mt-10">
+            <p className="text-gray-600 text-sm mt-10 mb-5">
               Thursday, September 7, 2023
             </p>
           </div>

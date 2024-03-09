@@ -9,7 +9,7 @@ const WhyPeopleChooseUs = () => {
           "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://assets.website-files.com/5b68628a23db9d1747f9f227/5b9ad62b6219fee6d2595ab4_shutterstock_637073704.jpg)",
       }}
     >
-      <div className="container mx-auto text-white text-center px-16">
+      <div className="container  text-white text-center px-6 lg:px-16 lg:mx-auto">
         <h2 className="text-3xl mt-4 mb-8">Why People Choose Us</h2>
         <p className="text-md font-semibold mb-20">
           With over 75 years of combined experience, the TelcoSolutions team has
@@ -25,9 +25,9 @@ const WhyPeopleChooseUs = () => {
           experienced professionals and desire to maintain high levels of
           customer satisfaction are what set us apart from our competitors.
         </p>
-        <div className="flex justify-center">
+        <div className="flex-col justify-center lg:flex lg:flex-row">
           {/* Card 1 */}
-          <div className="mx-4">
+          <div className="mx-4 mb-12">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b97ce6f572072c162f11856_people-p-500.png"
               alt="Experienced Professionals"
@@ -40,7 +40,7 @@ const WhyPeopleChooseUs = () => {
             </p>
           </div>
           {/* Card 2 */}
-          <div className="mx-4">
+          <div className="mx-4 mb-12">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b7daddd1296146a1f2f0dd9_Chosen.png"
               alt="Experienced Professionals"
@@ -54,7 +54,7 @@ const WhyPeopleChooseUs = () => {
             </p>
           </div>
           {/* Card 3 */}
-          <div className="mx-4">
+          <div className="mx-4 mb-12">
             <img
               src="https://assets.website-files.com/5b68628a23db9d1747f9f227/5b717e91b3323ecbff032832_customers.png"
               alt="Experienced Professionals"

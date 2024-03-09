@@ -10,10 +10,10 @@ const Blog = () => {
           className="h-[50vh] w-[40%] object-cover object-center mr-8 "
         />
         <div>
-          <h3 className="text-xl  mb-2">
+          <h3 className="text-md  mb-2 md:text-2xl">
             What Causes Internet Outages and How Does It Affect Your Business?
           </h3>
-          <p className="text-gray-700 my-10 ">
+          <p className="text-gray-700 my-10 text-sm md:text-md ">
             As a business fiber internet provider, our team at TelcoSolutions
             delves deeper into the most common causes of internet outages, their
             impact on business, and how to prevent downtime.
