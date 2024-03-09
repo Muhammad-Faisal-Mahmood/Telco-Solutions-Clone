@@ -37,9 +37,12 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-gray-900 lg:px-20 z-999 shadow-2xl">
+    <div className="fixed w-full bg-gray-900 lg:px-20 z-999 shadow-2xl">
       <div className="flex justify-end px-4">
-        <button className="bg-green-500 text-white px-4 py-2">
+        <button
+          style={{ backgroundColor: "#89cff0" }}
+          className=" text-white px-4 py-2"
+        >
           Request a Quote
         </button>
         <button className="bg-gray-500 text-white py-2 px-4">
