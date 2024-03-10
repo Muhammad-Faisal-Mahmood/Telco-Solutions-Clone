@@ -1,8 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import ContactUsPage from "./components/contactUs/index";
-import BlogPage from "./components/Blog/index";
-import BlogPost from "./components/SingleBlog/index";
 import PartnerProgram from "./components/PartnerProgram/index";
 import About from "./components/About/index";
 import CurrentCustoemrs from "./components/About/CurrentCustomers/index";
@@ -28,14 +26,6 @@ const Body = () => {
     {
       path: "/contact",
       element: <ContactUsPage />,
-    },
-    {
-      path: "/blog",
-      element: <BlogPage />,
-    },
-    {
-      path: "/blog/blog-post",
-      element: <BlogPost />,
     },
     {
       path: "/partner-program",

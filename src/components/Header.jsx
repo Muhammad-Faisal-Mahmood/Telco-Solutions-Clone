@@ -163,9 +163,6 @@ const Header = () => {
           <Link to="/contact" className="text-white">
             Contact Us
           </Link>
-          <Link to="/blog" className="text-white">
-            Blog
-          </Link>
         </div>
 
         {/* Mobile menu haburger */}

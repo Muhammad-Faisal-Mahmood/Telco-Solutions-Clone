@@ -118,8 +118,7 @@ const Footer = () => {
       <hr className="border-gray-700 my-8" />
       {/* Copyright Text */}
       <p className="text-center text-md text-gray-400 pb-8">
-        © 2020 TELCOSOLUTIONS - Your full service communications company. All
-        rights reserved.
+        © Copyright 2023 East Coast Telecoms - All rights reserved.
       </p>
     </footer>
   );
